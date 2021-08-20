@@ -68,6 +68,9 @@ body {
 .home-image path:hover {
   opacity: 1;
 }
+path.current-floor {
+  opacity: 1;
+}
 .main-info {
   flex-grow: 1;
   text-align: center;
@@ -101,7 +104,8 @@ cursor: pointer;
   font-family: 'Bebas Neue', sans-serif;
   color: #635854;
   font-size: 124px;
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 .button-primary {
   background-color: #3596F5;
